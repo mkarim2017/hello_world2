@@ -23,4 +23,4 @@ echo "{\"version\": \"v1.0\"}" > $dataset_json_file
 
 # create minimal metadata file
 metadata_json_file=${id}/${id}.met.json
-echo "{}" > $metadata_json_fileecho "Hello World to STDERR" 1>&2
+echo "{}" > $metadata_json_file echo "Hello World to STDERR" 1>&2
